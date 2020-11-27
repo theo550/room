@@ -164,3 +164,72 @@ UNDER-CONTENT
   color: hsl(0, 0%, 63%);
   line-height: 22px;
 }
+
+@media screen and (max-width:860px){
+
+  .container{
+    height: 100vh;
+  }
+  .paragraphe{
+    line-height: 17px;
+  }
+  .text h1{
+    font-size: 27px;
+  }
+  .picture{
+    height: 100vh;
+  }
+  .btn{
+    bottom: 0vh;
+  }
+
+  .right-img{
+    display: none;
+  }
+  .under-content{
+    height: 60vh;
+  }
+  .under-text p{
+    line-height: 17px;
+  }
+
+}
+
+@media screen and (max-width:414px) {
+
+  .container{
+    display: inline;
+  }
+  .picture{
+    width: 100vw;
+  }
+  .menu a{
+    display: none;
+    margin: 50px auto;
+  }
+  .text{
+    width: 100vw;
+    height: 60vh;
+  }
+  .btn{
+    right: 0;
+    left: auto;
+  }
+
+  .under-content{
+    display: inline;
+    width: 100vw;
+  }
+  .under-content img{
+    width: 100%;
+    height: 40vh;
+  }
+  
+  .under-text{
+    height: 60vh;
+  }
+  .right-img{
+    display: inline;
+  }
+
+}
