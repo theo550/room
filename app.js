@@ -18,9 +18,6 @@ function changePic() {
 
   background.style.backgroundImage = `url(./images/desktop-image-hero-${i}.jpg)`
 
- 
-  console.log(i)
-
 }
 
 
@@ -34,5 +31,4 @@ function backPic() {
 
   background.style.backgroundImage = `url(./images/desktop-image-hero-${i}.jpg)`;
 
-  console.log(i)
 }
