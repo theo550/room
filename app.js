@@ -11,11 +11,15 @@ buttonRight.addEventListener('click', backPic);
 function changePic() {
 
   i ++
+
+  if (i > 3) {
+    i = 1;
+  }
+
   background.style.backgroundImage = `url(./images/desktop-image-hero-${i}.jpg)`
 
-  if (i > 2) {
-    i = 0;
-  }
+ 
+  console.log(i)
 
 }
 
@@ -30,5 +34,5 @@ function backPic() {
 
   background.style.backgroundImage = `url(./images/desktop-image-hero-${i}.jpg)`;
 
-  
+  console.log(i)
 }
